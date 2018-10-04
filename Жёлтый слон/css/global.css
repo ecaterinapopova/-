@@ -1,0 +1,19 @@
+.wrapper{
+    font-family: 'HeliosBlack';
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fffde9;
+}
+@media screen and (min-width: 826px) {
+    .wrapper{
+        max-width: 986px;
+    }
+}
+@media screen and (min-width: 1175px) {
+    .wrapper{
+        max-width: 1151px;
+    }
+}
+.flex{
+    display: flex;
+}
